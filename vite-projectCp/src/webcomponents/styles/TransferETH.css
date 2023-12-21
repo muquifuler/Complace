@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.Transfer{
+    width: 20vw;
+    text-align: center;
+    background-color: #feffff;
+    border-radius: 1vh;
+    border: solid .1vh #e2e2e2;
+    background-size: 100%;
+}
+
+.Transfer > .body{
+    padding: 3%;
+    border-top: solid .1vh #e2e2e2;
+}
+
+.Transfer > .body > input{
+    width: 96%;
+    padding-left: 4%;
+    height: 4vh;
+    margin-bottom: 1vh;
+    border-radius: .5vh;
+    border: solid .1vh #d8d7d7;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 1.5vh;
+    font-family: "Open Sans";
+}
+
+.Transfer > .body > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+.Transfer > .body > div > select{
+    width: 48%;
+    background-color: #ffffff;
+    border: solid .1vh #d8d7d7;
+    border-radius: .5vh;
+    color: var(--color-bg);
+    font-size: 1.8vh;
+    padding: 1vh;
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+.Transfer > .body > div > select > option{
+    color: var(--color-bg);
+    font-size: 2vh;
+}
+
+.Transfer > .body > button{
+    width: 100%;
+    border: none;
+    height: 4vh;
+    background-color: var(--color-ident);
+    color: var(--color-d-bg);
+    border-radius: .5vh;
+    border: solid .1vh #e2e2e2;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.5vh;
+    font-family: "Open Sans";
+}
+
+.head{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    padding: 0 .7vw;
+}
+
+.head > img{
+    height: 60%;
+    margin-right: .5vw;
+}
+
+.head > span{
+    font-size: 1.4vh;
+    color: var(--color-bg);
+}

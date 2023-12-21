@@ -1,0 +1,318 @@
+.Component{
+    width: 100vw;
+    padding: 0 15%;
+    padding-bottom: 20%;
+}
+
+.sandboxTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+.sandboxTop > button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid .1vh var(--color-d-border);
+    border-radius: .5vh;
+    background-color: var(--color-d-bg);
+    cursor: pointer;
+    
+}
+
+.sandboxTop > a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid .1vh var(--color-d-border);
+    border-radius: .5vh;
+    background-color: var(--color-d-bg);
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: .5vw;
+    
+}
+.sandboxTop > a > svg{
+    height: 60%;
+}
+.sandboxTop > button > svg{
+    height: 60%;
+}
+
+.sandboxTop > button > span{
+    margin: 0 .5vw 0 0;
+    color: var(--color-ident);
+    font-weight: 600;
+    font-size: 1.5vh;
+}
+
+.sandbox{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.sandbox > div{
+    width: 49.5%;
+    border-radius: .5vh;
+}
+
+.comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-d-bg);
+    border: solid .1vh var(--color-d-border);
+}
+
+.banner{
+    display: flex;
+    height: 3.5vh;
+    padding-left: .5vw;
+    padding-top: .5vh;
+    background-color: #4b4b4b;
+    border-radius: .5vh .5vh 0 0!important;
+}
+
+.banner > button{
+    display: flex;
+    align-items: center;
+    padding-right: .5vw;
+    border: none;
+    cursor: pointer;
+    border-radius: .5vh .5vh 0 0;
+    font-weight: 600;
+    background-color: rgb(54, 54, 54);
+    color: var(--color-d-white);
+}
+
+.banner > button > svg{
+    height: 70%;
+}
+
+.codes_active{
+    background-color: #2a2a2a!important;
+}
+
+.raw{
+    height: 62vh;
+    padding: 2vh!important;
+    border: none!important;
+    border-radius: 0 0 .5vh .5vh!important;
+}
+
+.raw::-webkit-scrollbar {
+    width: .2vw;
+    height: 1vh;
+    background-color: transparent;
+  }
+  
+.raw::-webkit-scrollbar-thumb {
+  background-color: var(--color-ident);
+}
+
+.raw::-webkit-scrollbar-track {
+}
+
+.code{
+    position: relative;
+}
+
+.code > svg{
+    position: absolute;
+    background-color: var(--color-bg);
+    z-index: 5;
+    top: 5vh;
+    right: 1vh;
+    cursor: pointer;
+    padding: .5%;
+    border-radius: 1vh;
+    height: 3.5vh;
+    width: 3.5vh;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.profile{
+    width: 26%;
+    padding: 2%;
+    border-radius: .5vh;
+    background-color: var(--color-d-bg);
+    border: solid .1vh var(--color-d-border);
+}
+
+.profile > span{
+    font-size: 3vh;
+    font-weight: 600;
+    color: var(--color-bg);
+}
+
+.profile > h3{
+    font-size: 1.7vh;
+    font-weight: 400;
+}
+
+.profile > hr{
+    margin: 1.5vh 0;
+    border: none;
+    border-bottom: solid var(--color-d-bg);
+}
+
+.hastags{
+    display: flex;
+    margin: 1.5vh 0;
+    margin-top: 2.5vh;
+}
+
+.hastags > span{
+    background-color: var(--color-ident);
+    color: var(--color-d-white);
+    padding: 2%;
+    font-size: 1.4vh;
+    border-radius: 1vh;
+    margin-right: .5vw;
+}
+
+.installs{
+    background-color: var(--color-bg);
+    color: var(--color-d-white);
+    padding: 4%;
+    border-radius: 1vh;
+    margin: 1vh 0;
+    font-size: 1.6vh;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person > span{
+    font-size: 2vh;
+    font-weight: 600;
+    color: var(--color-bg);
+}
+
+
+.person > svg{
+    height: 3.5vh;
+    cursor: pointer;
+}
+
+.comment{
+    border-radius: .5vh;
+    width: 65%;
+    padding: 2%;
+    padding-bottom: 6%;
+    background-color: var(--color-d-bg);
+    border: solid .1vh var(--color-d-border);
+}
+
+.comment > hr{
+    
+    border: none;
+    border-bottom: solid 1px var(--color-d-border);
+}
+
+.resume{
+    color: var(--color-bg);
+    font-size: 2vh;
+}
+
+.titleCom{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 0;
+}
+
+.titleCom > span{
+    font-weight: 600;
+    font-size: 2.4vh;
+    color: var(--color-bg);
+}
+
+.titleCom > div > button{
+    color: var(--color-bg);
+    background-color: var(--color-d-bg);
+    border-radius: .5vh;
+    border: solid .1vh var(--color-ident);
+    font-size: 1.6vh;
+    padding: .5vh .5vw;
+    cursor: pointer;
+}
+
+.titleCom > div > span{
+    color: var(--color-bg);
+    font-size: 1.7vh;
+}
+
+.textCom{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-d-bg);
+    border-radius: 1vh;
+    padding: 3%;
+}
+
+.textCom > input{
+    width: 76%;
+    height: 4vh;
+    border: solid .1vh var(--color-ident);
+    background-color: var(--color-d-bg);
+    border-radius: .5vh;
+    outline: none;
+    padding-left: 2%;
+    font-size: 2vh;
+}
+
+.textCom > button{
+    width: 20%;
+    border: solid .1vh var(--color-ident);
+    border-radius: .5vh;
+    background-color: var(--color-ident);
+    color: var(--color-d-white);
+    font-weight: 600;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.res{
+    background-color: var(--color-d-bg);
+    padding: 1%;
+    border-radius: 1vh;
+    margin-top: 2vh;
+    padding-bottom: 2%;
+}
+
+.res > div{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.res > div > img{
+    height: 5vh;
+    border-radius: 50%;
+    margin-right: .5vw;
+}
+
+.res > div > span{
+    font-size: 2vh;
+}
+
+.res > p{
+    height: 70%;
+    padding: 1%;
+}
+
+.res > span{
+    height: 10%;
+    padding: 1%;
+}

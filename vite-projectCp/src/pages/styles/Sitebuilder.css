@@ -1,0 +1,759 @@
+
+
+.Templates{
+    width: 100%;
+    height: 92vh;
+    border-bottom: solid .1vh var(--color-text);
+    border-top: solid .1vh var(--color-text);
+    background-color: red;
+}
+
+.buttonSetting{
+    width: 90%;
+    display: flex;
+    padding: 0 5%;
+    height: 3vh;
+}
+
+.buttonSetting > button{
+    width: 5vw;
+    border: 0;
+    padding: .8vh 0;
+    background-color: var(--color-d-btn);
+    color: var(--color-d-text);
+    border-bottom: solid .3vh transparent;
+    cursor: pointer;
+}
+
+.buttonSetting > button:hover{
+    border-bottom: solid .3vh var(--color-ident);
+}
+
+.textInput{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-d-bg);
+    border-top: solid .1vh var(--color-text);
+    border-bottom: solid .1vh var(--color-text);
+    width: 100%;
+    display: flex;
+    height: 5vh;
+}
+
+.textInput > button{
+    width: 4vw;
+    border: 0;
+    height: 60%;
+}
+
+.textInput > textarea{
+    width: 90vw;
+    padding: 0;
+    background-color: var(--color-d-btn);
+    overflow: hidden;
+    height: 60%;
+    font-size: 1.5vh;
+    color: black;
+}
+
+main{
+    display: flex;
+    background-color: aquamarine;
+    height: 100%;
+    
+}
+
+.aside1{
+    background-color: var(--color-d-bg);
+    width: 3vw;
+    text-align: center;
+    height: 100%;
+}
+
+.aside1 > svg{
+    border-bottom: solid 1px var(--color-text);
+    width: 100%;
+    padding: 30% 0;
+    height: 2.5vh;
+    display: flex;
+    cursor: pointer;
+}
+
+svg{
+    width: 2vw;
+}
+
+.aside2{
+    background-color: var(--color-d-bg);
+    width: 14vw;
+    border-left: solid .1vw var(--color-text);
+    border-right: solid .1vw var(--color-text);
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.aside2 > p{
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    padding: 0 1vw;
+    border-bottom: solid .1vh var(--color-text);
+}
+
+.aside2title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid .1vh var(--color-text);
+    padding: .6vh .2vw .6vh .5vw;
+}
+
+.aside2title > span{
+    font-size: 1.8vh;
+    font-weight: 400;
+    color: var(--color-d-text);
+}
+
+.aside2title > svg{
+    width: 1.4vw;
+}
+
+.asideFinder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid .1vh var(--color-text);
+    padding: 3%;
+    height: 4vh;
+}
+
+.asideFinder > div{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: solid .1vh var(--color-text);
+    height: 70%;
+    width: 100%;
+}
+
+.asideFinder > div > svg{
+    height: 60%;
+    background-color: transparent;
+}
+
+.asideFinder > div > input{
+    height: 100%;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    outline: none;
+}
+
+.panelNav {
+    width: 96%;
+    height: 83%;
+    overflow: scroll;
+    align-content: flex-start;
+    padding: 0 2%;
+    padding-bottom: 5%;
+}
+
+.panelNav::-webkit-scrollbar {
+    width: .2vw!important;
+    height: 2vh;
+    background-color: var(--color-d-nav);
+  }
+  
+.panelNav::-webkit-scrollbar-thumb {
+    background-color: var(--color-ident);
+  }
+  
+.panelNav::-webkit-scrollbar-track {
+}
+
+.panelNav > button > svg{
+    height: 1.8vh;
+    padding: 1.1vh .3vw;
+}
+
+.contractOpen{
+    margin-top: -.5vh;
+}
+
+
+.panelNav > button{
+    font-size: 1.5vh;
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    height: 4vh;
+    margin-top: .5vh;
+    text-align: left;
+    background-color: var(--color-d-bg);
+    border: solid .1vh var(--color-text);
+}
+
+.panelNav > button:hover{
+    background-color: var(--color-d-nav);
+}
+
+.btnNavAside{
+    text-align: left;
+    width: 100%;
+    border: none;
+    height: 6vh;
+    margin-top: 1vh;
+    border-bottom: solid .1vh var(--color-text);
+}
+
+.panel{
+    background-color: var(--color-d-nav);
+    width: 66.8vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.panel::-webkit-scrollbar {
+    width: .2vw!important;
+    height: .2vw!important;
+    background-color: var(--color-d-nav);
+  }
+  
+.panel::-webkit-scrollbar-thumb {
+    background-color: var(--color-ident);
+  }
+  
+.panel::-webkit-scrollbar-track {
+}
+
+.aside3{
+    background-color: var(--color-d-bg);
+    width: 15.9vw;
+    border-left: solid .1vw var(--color-text);
+    height: 100%;
+}
+
+.aside3 > p{
+    display: flex;
+    align-items: center;
+    width: 96%;
+    height: 4vh;
+    padding-left: 4%;
+    font-weight: 600;
+    color: var(--color-ident);
+}
+
+footer{
+    margin-top: 7vh;
+}
+
+.background{
+    background-color: transparent;
+    border: solid 1px rgba(0, 0, 0, 0.082);
+    overflow: hidden;
+}
+
+.selectBtn{
+    background-color: var(--color-d-nav)!important;
+}
+
+.properties{
+    width: 100%;
+    height: 77vh;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.properties::-webkit-scrollbar {
+    width: .2vw!important;
+    background-color: var(--color-d-nav);
+  }
+  
+.properties::-webkit-scrollbar-thumb {
+    background-color: var(--color-ident);
+  }
+  
+.properties::-webkit-scrollbar-track {
+}
+
+.properties > div > p{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-d-btn);
+    color: var(--color-d-text);
+    font-size: 1.5vh;
+    padding: 1% 3%;
+    border-bottom: solid .1vh var(--color-d-nav);
+    border-top: solid .1vh var(--color-d-nav);
+    margin-bottom: 4%;
+}
+
+.properties > div{
+    display: block;
+    margin: 5% 0;
+}
+
+.properties > div > div{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.propertiesKeys{
+    display: grid;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.propertiesKeys > span{
+    height: 100%;
+    padding-left: .6vw;
+    font-size: 1.35vh;
+    color: var(--color-d-text);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.propertiesKeys > span:hover{
+    color: var(--color-ident);
+}
+
+.propertiesValues{
+    display: grid;
+    width: 49%;
+    height: 60%;
+}
+
+.propertiesValues > select{
+    padding: 6%;
+    width: 95%;
+    background-color: white;
+    border: solid .1vh var(--color-d-nav);
+    color: var(--color-nav);
+    font-size: 1.3vh;
+    outline: none;
+}
+
+.propertiesValues > aside{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.propertiesValues > aside > img{
+    height: 100%;
+    background-color: white;
+    border: solid .1vh var(--color-d-nav);
+    padding: .5vh;
+    height: 2.3vh;
+    width: 23%;
+    cursor: pointer;
+}
+
+.asideImgSelect{
+    background-color: rgb(236, 236, 236)!important;
+}
+
+.aIS2{
+    width: 40%!important;
+}
+
+.propertiesValues > input{
+    padding: 7%;
+    width: 80%;
+    border: solid .1vh var(--color-d-nav);
+    color: var(--color-nav);
+    font-size: 1.4vh;
+    outline: none;
+}
+
+.aside3pages{
+    display: flex;
+    padding-top: 2vh;
+    border-top: solid .1vh var(--color-d-border);
+    border-bottom: solid .1vh var(--color-d-border);
+}
+
+.aside3pages > button{
+    border: none;
+    padding: 3% 1%;
+    margin: 0 2%;
+    background-color: var(--color-d-bg);
+    margin-bottom: .1rem;
+    cursor: pointer;
+}
+
+.aside3pages > .select{
+    border-bottom: solid .2rem var(--color-ident);
+    margin-bottom: -.1rem;
+}
+
+.addBtn{
+    width: 100%;
+    text-align: left;
+    height: 4vh;
+    font-size: 1.5vh;
+    border: none;
+    color: var(--color-d-text);
+    margin-bottom: .8vh;
+    border-radius: 3px;
+    background-color: var(--color-d-bg);
+    border: solid .1vh var(--color-text);
+    display: flex;
+    align-items: center;
+}
+
+.addBtn:hover{
+    background-color: var(--color-d-btn);
+}
+
+.addBtn > svg{
+    height: 50%;
+    width: 20%;
+}
+
+.addBtn > span{
+    height: 100%;
+    width: 80%;
+    margin-bottom: .4vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vh;
+    color: var(--color-d-text);
+}
+
+.selector{
+    position: absolute;
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+.aside3nameNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vh;
+    padding: 1% 0;
+}
+
+.aside3nameNav > input{
+    height: 64%;
+    padding-left: 2%;
+    margin-left: 4%;
+    background-color: white;
+    border: solid .1vh var(--color-d-nav);
+    color: var(--color-nav);
+    font-size: 1.4vh;
+    outline: none;
+}
+
+.aside3top{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 2%;
+}
+
+.aside3top > span{
+    margin-right: auto;
+    margin-left: .4vw;
+    color: var(--color-d-text);
+}
+
+.aside3top > svg{
+    margin-left: .2vw;
+    height: 1.9vh;
+    cursor: pointer;
+}
+
+.AIkey{
+}
+
+.AIkey > input{
+    background-color: gainsboro;
+    border: none;
+    padding: 1vh 0;
+    width: 100%;
+}
+
+.AIkey > p{
+    padding: 1% 15%;
+    font-size: 1.7vh;
+    text-align: center;
+}
+
+.panelOptions{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: .3vh 0;
+    z-index: 5;
+}
+
+.panelOptions > button{
+    display: block;
+    width: 100%;
+    padding: .5vh .9vh;
+    margin-bottom: .3vh;
+    background-color: white;
+    border: solid .1vh var(--color-text);
+}
+.panelCode {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: var(--color-d-text);
+    flex-direction: column;
+}
+
+.panelCode > svg {
+    position: absolute;
+    z-index: 4;
+    top: 1vh;
+    left: 1vh;
+}
+
+.codeRaw{
+    width: 90%;
+    background: none!important;
+    background-color: var(--color-d-text)!important;
+    padding: 5%!important;
+    flex: 1;
+    overflow: auto;
+}
+
+.codeRaw > code > span{
+    font-size: 1.7vh;
+}
+
+
+.codeRaw::-webkit-scrollbar {
+    height: 2vh;
+    background-color: var(--color-d-text);
+  }
+  
+.codeRaw::-webkit-scrollbar-thumb {
+    background-color: var(--color-ident);
+  }
+  
+.codeRaw::-webkit-scrollbar-track {
+}
+
+.Blockchain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    border-bottom: solid .1vh var(--color-text);
+}
+
+.Blockchain > button{
+    padding: 3% 0 5% 0;
+    width: 85%;
+    background-color: white;
+    border: solid .1vh var(--color-text);
+    border-radius: 10px;
+    color: var(--color-d-text);
+    font-weight: 400;
+    font-size: 1.7vh;
+    cursor: pointer;
+}
+
+.panelActions{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8vh;
+    margin: .3vh;
+    background-color: var(--color-d-bg);
+    border-radius: 3px;
+    border: solid 1px var(--color-d-border);
+    cursor: pointer;
+}
+
+.panelActions > svg{
+    
+}
+
+.apiEl{
+    overflow-y: scroll;
+    height: 88vh;
+}
+
+.apiEl::-webkit-scrollbar {
+    width: .4vh;
+    background-color: var(--color-d-bg);
+  }
+  
+.apiEl::-webkit-scrollbar-thumb {
+    background-color: var(--color-ident);
+  }
+  
+.apiEl::-webkit-scrollbar-track {
+}
+
+.apiElement{
+}
+
+.apiElementHeader{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 3.5vh;
+    padding: 3% 2% 3% 5%;
+    border-bottom: solid .1vh var(--color-d-border);
+}
+
+.apiElementHeader > span{
+    font-size: 1.7vh;
+    padding: 1.5% 0;
+    padding-left: 2%;
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.apiElementHeader > input{
+    font-size: 1.6vh;
+    width: 65%;
+    border: solid .1vh var(--color-d-border);
+    padding: 2% 0;
+    padding-left: 2%;
+}
+
+.apiElementHeader > svg{
+    height: 2vh;
+    cursor: pointer;
+}
+
+
+
+.apiElementBody{
+    padding-top: 4%;
+}
+
+.apiElementBody > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0;
+}
+
+.apiElUrl > input{
+    border: solid .1vh var(--color-d-border);
+    border-right: 0;
+    background-color: var(--color-d-bg);
+    height: 2vh;
+    width: 66%;
+    padding: 2%;
+    outline: none;
+}
+
+.apiElUrl > svg{
+    border: solid .1vh var(--color-d-border);
+    background-color: var(--color-d-bg);
+    height: 2vh;
+    width: 10%;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.apiData > span{
+    margin: 0 2%;
+    padding: 2% 5%;
+    font-size: 1.4vh;
+    border-radius: 1.7vh;
+    font-weight: 600;
+    color: var(--color-nav);
+    background-color: var(--color-d-border);
+}
+
+.apiRoute{
+}
+
+.apiRoute > input{
+    width: 70%;
+    border: solid .1vh var(--color-d-border);
+    background-color: var(--color-d-bg);
+    height: 1.5vh;
+    padding: 2%;
+    outline: none;
+}
+
+
+.apiRoute > svg{
+    border: solid .1vh var(--color-d-border);
+    background-color: var(--color-d-bg);
+    height: 1.5vh;
+    width: 6%;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.apiResult{
+    border-bottom: solid .1vh var(--color-d-border);
+    padding-bottom: 7%!important;
+}
+
+.apiResult > pre{
+    border: solid .1vh var(--color-d-border);
+    background-color: var(--color-d-bg);
+    width: 75%;
+    padding: 2%;
+    min-height: 20vh;
+    max-height: 50vh;
+    overflow: scroll;
+    font-size: 1.5vh;
+    white-space: pre-wrap;
+}
+
+.apiResult > pre::-webkit-scrollbar {
+    height: .8vh;
+    width: 0;
+    background-color: var(--color-d-bg);
+  }
+  
+.apiResult > pre::-webkit-scrollbar-thumb {
+    background-color: var(--color-ident);
+  }
+  
+.apiResult > pre::-webkit-scrollbar-track {
+}
+
+.apiPlus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apiPlus > svg{
+    border: solid .1vh var(--color-d-border);
+    background-color: var(--color-d-bg);
+    padding: 3%;
+    margin: 5%;
+    height: 2vh;
+    width: 2vh;
+    cursor: pointer;
+}
+
+/*<pre>{e.dataShow}</pre>*/
+
+.inputColor{
+    padding: 0!important;
+    width: 95%!important;
+}

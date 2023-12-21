@@ -1,0 +1,92 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.services > div{
+    width: 40%;
+}
+
+.services > img{
+    width: 55%;
+    object-fit: contain;
+}
+
+
+.services > div > h1{
+    font-size: 4vh;
+    line-height: 4.5vh;
+    color: var(--color-bg);
+    margin-bottom: 2vh;
+}
+
+.services > div > h2{
+    font-size: 2.3vh;
+    color: var(--color-bg);
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+
+.services > div > .price{
+    color: var(--color-bg);
+    margin-top: 1vh;
+}
+
+.services > div > .price > span{
+    font-size: 2.5vh;
+}
+
+.services > div > .price > .num{
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+.services > div > h3{
+    font-size: 2.2vh;
+    color: var(--color-bg);
+}
+
+.services > div > .timeout{
+    font-size: 3vh;
+    color: var(--color-bg);
+    margin: 3% 0;
+}
+
+.services > div > .timeout > span{
+    padding: 1% 2%;
+}
+
+.services > div > .timeout > .hhddmmss{
+    border: solid .1vh var(--color-nav);
+    border-radius: 3px;
+    padding: 1.5% 2.5%;
+}
+
+.services > div > button{
+    border: solid .1vh var(--color-d-border);
+    border-radius: 3px;
+    padding: 2% 20%;
+    background-color: var(--color-ident);
+    color: var(--color-d-bg);
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+.advantages{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    margin: 1% 0;
+}
+
+.advantages > span{
+    font-size: 100%;
+    margin-left: .5vw;
+    color: var(--color-bg);
+    
+}
+
+.advantages > img{
+    height: 80%;
+}

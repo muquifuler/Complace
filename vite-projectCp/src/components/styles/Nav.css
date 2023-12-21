@@ -1,0 +1,94 @@
+.selected{
+    border-top: solid .5vh var(--color-ident);
+}
+
+nav{
+    padding: 0 10%;
+    background-color: var(--color-d-bg);
+    border-bottom: solid .1vh var(--color-d-border);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: .8%;
+    box-shadow: 0px .2vh 1vh -.4vh var(--color-d-border);
+}
+
+nav > a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+    background-color: var(--color-d-bg);
+    border-left: solid 1px var(--color-d-border);
+    border-top: solid .5vh transparent;
+    border-bottom: solid .5vh transparent;
+    height: 4.2vh;
+}
+
+nav > a:hover{
+    border-top: solid .5vh var(--color-ident);
+}
+
+a > span{
+    color: var(--color-ident);
+    font-weight: 500;
+    font-size: 1.4vh;
+}
+
+a > svg{
+    height: 80%;
+    animation: App-logo-spin infinite 20s linear;
+    pointer-events: none;
+}
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+nav > div{
+    height: 100%;
+    display: flex;
+}
+
+nav > button{
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 1.5vh;
+    color: var(--color-ident);
+    cursor: pointer;
+}
+
+nav > img{
+    height: 35%;
+    padding: 0 .5vw;
+}
+
+nav > div > button{
+    align-items: center;
+    padding: 0 1rem;
+    background-color: var(--color-d-bg);
+    border: none;
+    border-left: solid 1px var(--color-d-border);
+    color: var(--color-ident);
+    font-weight: 400;
+    font-size: 1.5vh;
+    height: 100%;
+    cursor: pointer;
+}
+
+nav > div > a{
+    height: 100%;
+    cursor: pointer;
+    border-left: solid 1px var(--color-d-border);
+}
+
+nav > div > a > img{
+    height: 100%;
+}

@@ -1,0 +1,53 @@
+footer{
+    justify-content: center;
+    display: flex;
+    background-image: url("../../assets/pattern.svg");
+    background-color: rgb(145,78,241);
+    padding: 2% 15%;
+    
+}
+
+footer > div{
+    margin: 5vh auto auto auto;
+    color: var(--color-d-bg);
+    width: 19%;
+}
+
+.footerText{
+    padding: 0 1%;
+}
+
+.footerInput{
+    width: 39%;
+}
+
+footer > div > h4{
+    font-size: 2vh;
+    font-weight: 500;
+    border-bottom: solid .1vh var(--color-d-bg);
+    margin-bottom: 1vh;
+    padding-bottom: .5vh;
+}
+
+footer > div > p{
+    font-size: 1.5vh;
+    font-weight: 300;
+}
+
+footer > div > form{
+    display: flex;
+}
+
+footer > div > form > input{
+    outline: none;
+    background-color: var(--color-d-bg);
+    border-radius: 0;
+    color: var(--color-d-text);
+    padding: 1vh;
+    width: 20%;
+}
+
+footer > div > form > .formText{
+    width: 80%;
+    border-right: solid 2px var(--color-ident);
+}

@@ -1,0 +1,130 @@
+
+body::-webkit-scrollbar {
+    width: .2vw;
+    height: 0;
+    background-color: var(--color-d-border);
+  }
+.templates{
+    display: block;
+}
+
+.webTemplate{
+    width: 100vw;
+    height: 93.2vh;
+    border-radius: .5vh;
+    display: block;
+}
+
+.webTemplate > article{
+    width: 80%;
+    height: 80%;
+    margin: 2vh auto 6vh auto;
+    display: flex;
+    border-radius: .5vh;
+    border: solid .1vh var(--color-d-border);
+    background: linear-gradient(330deg, rgba(255, 255, 255, 0) 0%, var(--color-ident) 9.3%, var(--color-d-border) 9.5%, var(--color-d-bg) 9.7%, rgb(255, 255, 255) 16.5%);
+    align-items: top;
+}
+
+.webTemplate > article > hr{
+    border: none;
+    border-right: solid .1vh var(--color-d-border);
+    height: 62vh;
+    margin-left: 1%;
+}
+
+.webTemplate > article > img {
+    margin: .5%;
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .4vh;
+}
+
+.webTemplate > article > div > button{
+    background-color: transparent;
+    border: solid 1px var(--color-ident);
+    padding: .5vh 1vh;
+    border-radius: .4vh;
+    text-decoration: none;
+    color: var(--color-ident);
+    font-size: 1.6vh;
+    margin: 1vh 0;
+    cursor: pointer;
+}
+
+.webTemplate > article > div{
+    padding-bottom: 1vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+    position: relative;
+    padding-bottom: 10vh;
+}
+
+.webTemplate > article > div > span{
+    display: block;
+    font-weight: 100;
+    margin-bottom: auto;
+    color: var(--color-bg);
+    margin: 1vh 0;
+    font-size: 1.7vh;
+}
+.webTemplate > article > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+.webTemplate > article > div > div > a{
+    border: solid 1px var(--color-ident);
+    padding: .5vh 1vh;
+    border-radius: .4vh;
+    text-decoration: none;
+    color: var(--color-ident);
+    font-size: 1.6vh;
+}
+.webTemplate > article > div > div > span{
+    margin-left: 1vh;
+    margin-top: 1vh;
+    border-radius: .4vh;
+    text-decoration: none;
+    color: var(--color-bg);
+    font-size: 1.8vh;
+    margin-right: auto;
+}
+
+.selectors{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+.selectors > select{
+    width: 10%;
+    padding: .3%;
+    font-size: 1.7vh;
+    background-color: var(--color-d-bg);
+    border: solid .1vh var(--color-d-border);
+    margin: 0 .5%;
+    border-radius: .3vh;
+    color: var(--color-bg);
+}
+.selectors > select > option{
+    height: 4vh;
+    font-size: 1vh;
+}
+
+.icons-tech{
+    display: flex;
+    height: 3.5vh;
+    justify-content: left!important;
+    margin: 2vh 0;
+}
+
+.icons-tech > img {
+    height: 100%;
+    margin-right: 1.5vh;
+}

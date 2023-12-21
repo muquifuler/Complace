@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  /* Modo noche */
+  --color-nav: #2d333b;
+  --color-bg: #22272e;
+  --color-btn: #373e47;
+  --color-text: #cbd7e1;
+  --color-white: #edf1f7;
+  --color-ident: #873ef0;
+  --color-link: #4e96f5;
+  --color-lint: #8e949e;
+
+    /* Modo dia */
+  --color-d-border: #d8e1e9;
+  --color-d-nav: #eef3fa;
+  --color-d-bg: #fbfcfd;
+  --color-d-bg2: #f6f8fa;
+  --color-d-btn: #f2f5f8;
+  --color-d-text: #141414;
+  --color-d-ident: #873ef0;
+  --color-d-link: #4e96f5;
+  --color-d-lint: #ec775c;
+  --color-d-white: #f4f8f8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  background-color: var(--color-d-bg);
+}
+
+body::-webkit-scrollbar {
+  width: .2vw;
+  background-color: var(--color-d-border);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-d-ident);
+}
+
+body::-webkit-scrollbar-track {
+}

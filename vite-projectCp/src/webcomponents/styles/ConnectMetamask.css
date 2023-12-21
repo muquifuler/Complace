@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.metamaskButton{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    background-color: #ffffff;
+    border: solid .1vh var(--color-d-bg);
+    border-radius: .5vh;
+    cursor: pointer;
+}
+
+.metamaskButton:hover{
+    background-color: #fafafa;
+    transition-duration: .2s;
+}
+
+.metamaskButton > img{
+    height: 50%;
+    margin-right: .5vw;
+}
+
+.metamaskButton > span{
+    font-size: 2vh;
+    font-weight: 500;
+    font-family: "Open Sans";
+    color: var(--color-bg);
+}
